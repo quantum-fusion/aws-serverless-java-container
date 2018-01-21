@@ -22,4 +22,11 @@
 # Limitations
 - Must use maven shade plugin, and not the spring boot plugin, due to SAM local dependency issues.
 
+# See Spring-Boot with Swagger2 REST Controller compared to Lambda without Swagger2 REST Controller.
+- Lambda REST Controller without Swagger2 (https://github.com/quantum-fusion/aws-serverless-java-container/blob/master/samples/springboot/pet-store/src/main/java/com/server/springboot/controller/RestaurantController.java)
+- Spring-Boot with Swagger2 without Lambda (https://github.com/quantum-fusion/springboot_swagger_example-master-cassandra/blob/master/src/main/java/com/server/springboot/controller/RestaurantController.java)
+
+# See Lambda Sam local Petstore example controller
+- (https://github.com/quantum-fusion/aws-serverless-java-container/blob/master/samples/springboot/pet-store/src/main/java/com/server/springboot/controller/PetsController.java)
+
 
