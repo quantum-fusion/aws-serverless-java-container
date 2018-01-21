@@ -1,4 +1,4 @@
-package com.amazonaws.serverless.sample.springboot;
+package com.server.springboot;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -16,9 +16,11 @@ import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandl
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.server.springboot.controller.Singleton;
+
 
 @SpringBootApplication
-@ComponentScan(basePackages = "com.amazonaws.serverless.sample.springboot.controller")
+@ComponentScan(basePackages = "com.server.springboot.controller")
 public class Application extends SpringBootServletInitializer {
 
     // silence console logging
@@ -60,6 +62,19 @@ public class Application extends SpringBootServletInitializer {
     }
 
     public static void main(String[] args) {
+
         SpringApplication.run(Application.class, args);
+
+//        final Logger logger = LoggerFactory.getLogger(Application.class);
+//
+//        ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
+//
+//        logger.info("Beans that are registered by Spring Boot:");
+//        String[] beanNamesApplicationContext = context.getBeanDefinitionNames();
+//        Arrays.sort(beanNamesApplicationContext);
+//        for (String beanName : beanNamesApplicationContext) {
+//            logger.info(beanName);
+//        }
+
     }
 }

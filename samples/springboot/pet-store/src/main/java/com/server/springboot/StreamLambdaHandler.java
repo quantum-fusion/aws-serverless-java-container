@@ -1,4 +1,4 @@
-package com.amazonaws.serverless.sample.springboot;
+package com.server.springboot;
 
 
 import com.amazonaws.serverless.exceptions.ContainerInitializationException;
