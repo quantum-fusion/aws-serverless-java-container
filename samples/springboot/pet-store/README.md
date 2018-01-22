@@ -13,7 +13,8 @@
 - $sam local start-api --template sam.yaml
 
 # Spring Boot Tutorials
-- https://github.com/quantum-fusion/tutorials
+- Pivotal (https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples)
+- Eugene (https://github.com/quantum-fusion/tutorials)
 
 # REST API Tests
 
