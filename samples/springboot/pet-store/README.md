@@ -20,7 +20,7 @@
 - $ curl 127.0.0.1:3000/restaurant/helloworld
 
 Databases Supported:
-- Cassandra 
+- Cassandra (https://github.com/quantum-fusion/aws-serverless-java-container/blob/master/samples/springboot/pet-store/src/main/java/com/server/springboot/cassandra/SessionUtil.java)
 - DynamoDb (http://www.baeldung.com/spring-data-dynamodb)
 
 # Limitations
