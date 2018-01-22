@@ -19,6 +19,10 @@
 - $ curl 127.0.0.1:3000/helloworld
 - $ curl 127.0.0.1:3000/restaurant/helloworld
 
+Databases Supported:
+- Cassandra 
+- DynamoDb (http://www.baeldung.com/spring-data-dynamodb)
+
 # Limitations
 - Must use maven shade plugin, and not the spring boot plugin, due to SAM local dependency issues.
 
